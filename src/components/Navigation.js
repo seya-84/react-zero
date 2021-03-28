@@ -1,5 +1,5 @@
 import React from 'react';
-import {NavLink} from "react-router-dom"
+import { NavLink } from "react-router-dom"
 
 const Navigation = () => {
   return (
@@ -7,7 +7,7 @@ const Navigation = () => {
       <NavLink exat to="/" activeClassName="nav-active">
         Accueil
       </NavLink>
-      <NavLink exat to="/a-propos" activeClassName="nav-active">
+      <NavLink exat to="a-propos" activeClassName="nav-active">
         À propos
       </NavLink>
     </div>
